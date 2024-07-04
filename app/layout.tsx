@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Header from '@/components/Header'
-import { ThemeProvider } from '@/components/themeprovider'
+import { ThemeProvider } from '@/components/ThemeProvider'
 
 export const metadata: Metadata = {
     title: 'Disney Clone',
