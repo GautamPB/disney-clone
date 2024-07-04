@@ -34,9 +34,6 @@ async function GenreDropdown() {
             </DropdownMenuTrigger>
 
             <DropdownMenuContent>
-                <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-
                 {data.genres.map((genre: Genre) => (
                     <div className="w-full" key={genre.id}>
                         <Link href={`/genre/${genre.id}?genre=${genre.name}`}>
